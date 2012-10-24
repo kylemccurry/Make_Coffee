@@ -1,28 +1,34 @@
+/*
+ * About.java
+ * Feed Cost Calculator
+ * Created By : Daniel Jamison
+ * Date : August 03, 2012
+ * Copyright (c) 2012 South Dakota State University. All rights reserved.
+ */
+
 package com.make.coffee;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.Menu;
-
-public class French_Press_Activity_1 extends Activity {
-	
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_layout, menu);
-        return true;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+ 
+public class French_Press_Activity_1 extends Fragment {
+ 
+    public static Fragment newInstance(Context context) {
+        French_Press_Activity_1 f = new French_Press_Activity_1();
+        
+        return f;
     }
-    
+ 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.french_press_layout_1);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.french_press_layout_1, null);
+        //View root = inflater.inflate(R.layout.about, container, false);
+        
+	    
+        return root;
     }
-
-	public static Fragment newInstance(Context _context) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }

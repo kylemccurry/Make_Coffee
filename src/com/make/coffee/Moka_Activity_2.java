@@ -1,28 +1,26 @@
 package com.make.coffee;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.Menu;
-
-public class Moka_Activity_2 extends Activity {
-	
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_layout, menu);
-        return true;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+ 
+public class Moka_Activity_2 extends Fragment {
+ 
+    public static Fragment newInstance(Context context) {
+        Moka_Activity_2 f = new Moka_Activity_2();
+        
+        return f;
     }
-    
+ 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.moka_layout_2);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.moka_layout_2, null);
+        //View root = inflater.inflate(R.layout.about, container, false);
+        
+	    
+        return root;
     }
-
-	public static Fragment newInstance(Context _context) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 }
