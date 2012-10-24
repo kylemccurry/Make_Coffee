@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Make Coffee</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_">Main_Activity</string>
+    <string name="french_press_button">French Press</string>
+    <string name="chemex_button">Chemex</string>
+    <string name="hario_button">Hario</string>
+    <string name="siphon_button">Siphon</string>
+    <string name="moka_button">Moka</string>
+    
+    <string name="page1">Page 1</string>
+    <string name="page2">Page 2</string>
+    <string name="page3">Page 3</string>
+
+</resources>

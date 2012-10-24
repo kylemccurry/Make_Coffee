@@ -1,0 +1,132 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.make.coffee"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main_Activity"
+            android:label="@string/title_activity_main_" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".Chemex_Activity">
+        </activity>
+        
+        <activity
+            android:name=".French_Press_Activity">
+        </activity>
+        
+        <activity
+            android:name=".Hario_Activity">
+        </activity>
+        
+        <activity
+            android:name=".Moka_Activity">
+        </activity>
+        
+        <activity
+            android:name=".Siphon_Activity">
+        </activity>
+        
+        
+        <activity 
+            android:name=".Chemex_Activity_1">
+        </activity>
+        
+        <activity 
+            android:name=".Chemex_Activity_2">
+        </activity>
+        
+        <activity 
+            android:name=".Chemex_Activity_3">
+        </activity>
+        
+        <activity
+            android:name=".French_Press_Activity_1">
+        </activity>
+        
+        <activity
+            android:name=".French_Press_Activity_2">
+        </activity>
+        
+        <activity
+            android:name=".French_Press_Activity_3">
+        </activity>
+        
+        <activity
+            android:name=".Hario_Activity_1">
+        </activity>
+        
+         <activity
+            android:name=".Hario_Activity_2">
+        </activity>
+        
+          <activity
+            android:name=".Hario_Activity_3">
+        </activity>
+        
+        <activity
+            android:name=".Moka_Activity_1">
+        </activity>
+        
+        <activity
+            android:name=".Moka_Activity_2">
+        </activity>
+        
+        <activity
+            android:name=".Moka_Activity_3">
+        </activity>
+        
+        <activity
+            android:name=".Siphon_Activity_1">
+        </activity>
+        
+        <activity
+            android:name=".Siphon_Activity_2">
+        </activity>
+        
+        <activity
+            android:name=".Siphon_Activity_3">
+        </activity>
+        
+        
+        <activity
+            android:name=".ChemexPagerAdapter">
+        </activity>
+        
+        <activity
+            android:name=".FrenchPressPagerAdapter">
+        </activity>
+        
+        <activity
+            android:name=".HarioPagerAdapter">
+        </activity>
+        
+        <activity
+            android:name=".MokaPagerAdapter">
+        </activity>
+        
+        <activity
+            android:name=".SiphonPagerAdapter">
+        </activity>
+        
+        <activity 
+            android:name=".PagerAdapter1">
+        </activity>
+        
+    </application>
+
+</manifest>

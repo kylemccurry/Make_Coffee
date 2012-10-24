@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/frenchpressbutton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/french_press_button" />
+    
+    <Button
+        android:id="@+id/hariobutton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/frenchpressbutton"
+        android:text="@string/hario_button" />
+    
+    <Button
+        android:id="@+id/chemexbutton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/hariobutton"
+        android:text="@string/chemex_button" />
+    
+    <Button
+        android:id="@+id/siphonbutton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/frenchpressbutton"
+        android:text="@string/siphon_button" />
+    
+    <Button
+        android:id="@+id/mokabutton"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/siphonbutton"
+        android:text="@string/moka_button" />
+
+</RelativeLayout>
