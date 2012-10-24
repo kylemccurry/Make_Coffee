@@ -1,3 +1,11 @@
+/*
+ * Main_Activity.java
+ * Make Coffee
+ * Created By : Kyle McCurry
+ * Date : 24 October 2012
+ * Copyright (c) Kyle McCurry. All rights reserved.
+ */
+
 package com.make.coffee;
 
 import android.app.Activity;

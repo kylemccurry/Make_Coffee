@@ -1,9 +1,9 @@
 /*
- * ViewPagerActivity.java
- * Feed Cost Calculator
- * Created By : Daniel Jamison
- * Date : August 03, 2012
- * Copyright (c) 2012 South Dakota State University. All rights reserved.
+ * FrenchPressPagerAdapter.java
+ * Make Coffee
+ * Created By : Kyle McCurry
+ * Date : 24 October 2012
+ * Copyright (c) Kyle McCurry. All rights reserved.
  */
 
 package com.make.coffee;
